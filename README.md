@@ -5,6 +5,8 @@ First, install dependencies. These scripts use `gpxpy` to parse GPX files and `g
 
 `pip install gpxpy geopy`
 
+To run the files, modify the `'input.gpx'` and `'output.gpx'` in the last line for your desired GPX input / output filenames.
+
 ## Smooth
 
 The `smooth_gpx.py` script removes GPX points within 10 meters of each other to smooth out a route. When breaking or moving slow on segments, GPX routes can become messy.
