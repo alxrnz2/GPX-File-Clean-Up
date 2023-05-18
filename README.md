@@ -1,5 +1,5 @@
 # GPX-File-Clean-Up
-In this repo, I'm including a few dependencies I use to smooth, streamline and reverse GPX files. All scripts are Python-based.
+In this repo, I'm including a few scripts I use to smooth, streamline and reverse GPX files. All Python-based with Bash prompts.
 
 First, install dependencies. These scripts use `gpxpy` to parse GPX files and `geopy` for distance calculations.
 
