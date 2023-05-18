@@ -17,5 +17,5 @@ def remove_time_and_extensions(input_file, output_file):
     with open(output_file, 'w') as gpx_file:
         gpx_file.write(gpx.to_xml())
 
-# Test the function; modify file names for desired GPX files in current directory
+# Run the function; modify file names for desired GPX files in current directory
 remove_time_and_extensions('input.gpx', 'output.gpx')
