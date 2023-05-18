@@ -17,6 +17,6 @@ Sometimes watches die or we forget to start tracking. When you follow the same r
 
 ## Simplify
 
-GPX files out of Strava and other trackers can contain more metadata than necessary. The `simplify_gpx.py` script removes timestamps and extensions.
+GPX files from Strava and other trackers can contain unnecessary, clunky metadata. The `simplify_gpx.py` script removes timestamps and extensions.
 
-It can be modified to remove other metadata by adding `point.[data]...` per the file comments. (Or timestamps / extensions can be left.)
+The script can be modified to remove other metadata by adding `point.[data]...` per the file comments. (Or timestamps / extensions can be left in place.)
