@@ -7,7 +7,7 @@ First, install dependencies. These scripts use `gpxpy` to parse GPX files and `g
 
 ## Smooth
 
-The `smooth_gpx.py` script removes GPX points within 5 meters of each other to smooth out a route. When breaking or moving slow on segments, GPX routes can become messy.
+The `smooth_gpx.py` script removes GPX points within 10 meters of each other to smooth out a route. When breaking or moving slow on segments, GPX routes can become messy.
 
 Distance can be modified to any desired number of meters per file comments.
 
