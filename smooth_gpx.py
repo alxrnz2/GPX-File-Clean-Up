@@ -2,6 +2,7 @@ import gpxpy
 import gpxpy.gpx
 from geopy.distance import geodesic
 
+# Change the number of meters between points (e.g., 10) as desired
 def smooth_gpx_file(input_file, output_file, max_distance_meters=10):
     # Parse the input GPX file
     with open(input_file, 'r') as gpx_file:
@@ -26,4 +27,5 @@ def smooth_gpx_file(input_file, output_file, max_distance_meters=10):
         gpx_file.write(new_gpx.to_xml())
 
 # Run the function; change file names to desired GPX files in current directory
+# Change the number of meters between points (e.g., 10) as desired
 smooth_gpx_file('input.gpx', 'output.gpx', 10)
