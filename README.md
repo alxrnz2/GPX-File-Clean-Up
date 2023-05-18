@@ -5,7 +5,9 @@ First, install dependencies. These scripts use `gpxpy` to parse GPX files and `g
 
 `pip install gpxpy geopy`
 
-To run the files, modify the `'input.gpx'` and `'output.gpx'` in the last line for your desired GPX input / output filenames.
+To run the files, modify the `'input.gpx'` and `'output.gpx'` in the last line for your desired GPX input / output filenames. Place your input GPX file and the script in the current directory (e.g., using `cd` in Bash). Then run the script using a command like the below.
+
+`python smooth_gpx.py`
 
 ## Smooth
 
